@@ -9,10 +9,15 @@ const client7 = new Discord.Client();
 const client8 = new Discord.Client();
 const client9 = new Discord.Client();
 const client10 = new Discord.Client();
+const client11 = new Discord.Client();
+const client12 = new Discord.Client();
+const client13 = new Discord.Client();
+const client14 = new Discord.Client();
+const client15 = new Discord.Client();
 console.log("Scrpit By Shadow");
 const myid = ['524218118462242816'];
 const prefix = ['!'];
-const mess = ['سادد '];
+const mess = ['ساد '];
 
 client.on("ready", () => {
 let channel =     client.channels.get("618079138376450198")
