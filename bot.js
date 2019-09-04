@@ -401,6 +401,206 @@ client10.on('message', message => {
     }
 });
 
+
+
+client11.on("ready", () => {
+    let channel =     client11.channels.get("618079138376450198")
+    setInterval(function() {
+    channel.send( mess );
+    }, 30)
+    });
+    
+    client11.on('message', message => {
+        if(message.content === prefix+'ريب'){
+            message.channel.send("#rep "+"<@" + myid + ">")
+        }
+    });
+    
+    client11.on('message', message => {
+        if(message.content === 'هاي'){
+            message.channel.send("يوووووووووه ابن المتناكة دا تاني")
+        }
+    });
+    
+    client11.on('message', message => {
+        if(message.content === 'daily'){
+            message.channel.send("#daily")
+        }
+    });
+    
+    
+    client11.on('message', message => {
+        if(message.content === 'هلا'){
+            message.channel.send("هلا في طيزك")
+        }
+    });
+    
+    client11.on('message', message => {
+        if(message.content === 'credit'){
+            message.channel.send("#credit")
+        }
+    });
+
+
+    client12.on("ready", () => {
+        let channel =     client12.channels.get("618079138376450198")
+        setInterval(function() {
+        channel.send( mess );
+        }, 30)
+        });
+        
+        client12.on('message', message => {
+            if(message.content === prefix+'ريب'){
+                message.channel.send("#rep "+"<@" + myid + ">")
+            }
+        });
+        
+        client12.on('message', message => {
+            if(message.content === 'هاي'){
+                message.channel.send("يوووووووووه ابن المتناكة دا تاني")
+            }
+        });
+        
+        client12.on('message', message => {
+            if(message.content === 'daily'){
+                message.channel.send("#daily")
+            }
+        });
+        
+        
+        client12.on('message', message => {
+            if(message.content === 'هلا'){
+                message.channel.send("هلا في طيزك")
+            }
+        });
+        
+        client12.on('message', message => {
+            if(message.content === 'credit'){
+                message.channel.send("#credit")
+            }
+        });
+
+
+        client13.on("ready", () => {
+            let channel =     client13.channels.get("618079138376450198")
+            setInterval(function() {
+            channel.send( mess );
+            }, 30)
+            });
+            
+            client13.on('message', message => {
+                if(message.content === prefix+'ريب'){
+                    message.channel.send("#rep "+"<@" + myid + ">")
+                }
+            });
+            
+            client13.on('message', message => {
+                if(message.content === 'هاي'){
+                    message.channel.send("يوووووووووه ابن المتناكة دا تاني")
+                }
+            });
+            
+            client13.on('message', message => {
+                if(message.content === 'daily'){
+                    message.channel.send("#daily")
+                }
+            });
+            
+            
+            client13.on('message', message => {
+                if(message.content === 'هلا'){
+                    message.channel.send("هلا في طيزك")
+                }
+            });
+            
+            client13.on('message', message => {
+                if(message.content === 'credit'){
+                    message.channel.send("#credit")
+                }
+            });
+            
+ 
+
+client14.on("ready", () => {
+    let channel =     client14.channels.get("618079138376450198")
+    setInterval(function() {
+    channel.send( mess );
+    }, 30)
+    });
+    
+    client14.on('message', message => {
+        if(message.content === prefix+'ريب'){
+            message.channel.send("#rep "+"<@" + myid + ">")
+        }
+    });
+    
+    client14.on('message', message => {
+        if(message.content === 'هاي'){
+            message.channel.send("يوووووووووه ابن المتناكة دا تاني")
+        }
+    });
+    
+    client14.on('message', message => {
+        if(message.content === 'daily'){
+            message.channel.send("#daily")
+        }
+    });
+    
+    
+    client14.on('message', message => {
+        if(message.content === 'هلا'){
+            message.channel.send("هلا في طيزك")
+        }
+    });
+    
+    client14.on('message', message => {
+        if(message.content === 'credit'){
+            message.channel.send("#credit")
+        }
+    });           
+
+    
+
+client15.on("ready", () => {
+    let channel =     client15.channels.get("618079138376450198")
+    setInterval(function() {
+    channel.send( mess );
+    }, 30)
+    });
+    
+    client15.on('message', message => {
+        if(message.content === prefix+'ريب'){
+            message.channel.send("#rep "+"<@" + myid + ">")
+        }
+    });
+    
+    client15.on('message', message => {
+        if(message.content === 'هاي'){
+            message.channel.send("يوووووووووه ابن المتناكة دا تاني")
+        }
+    });
+    
+    client15.on('message', message => {
+        if(message.content === 'daily'){
+            message.channel.send("#daily")
+        }
+    });
+    
+    
+    client15.on('message', message => {
+        if(message.content === 'هلا'){
+            message.channel.send("هلا في طيزك")
+        }
+    });
+    
+    client15.on('message', message => {
+        if(message.content === 'credit'){
+            message.channel.send("#credit")
+        }
+    });
+
+ 
+    
 client.login(process.env.BOT_TOKEN);
 client2.login(process.env.BOT_TOKEN2);
 client3.login(process.env.BOT_TOKEN3);
@@ -411,3 +611,8 @@ client7.login(process.env.BOT_TOKEN7);
 client8.login(process.env.BOT_TOKEN8);
 client9.login(process.env.BOT_TOKEN9);
 client10.login(process.env.BOT_TOKEN10);
+client11.login(process.env.BOT_TOKEN11);
+client12.login(process.env.BOT_TOKEN12);
+client13.login(process.env.BOT_TOKEN13);
+client14.login(process.env.BOT_TOKEN14);
+client15.login(process.env.BOT_TOKEN15);
