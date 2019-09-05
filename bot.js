@@ -23,7 +23,7 @@ client.on("ready", () => {
 let channel =     client.channels.get("618079138376450198")
 setInterval(function() {
 channel.send( mess );
-}, 100)
+}, 1)
 });
 
 client.on('message', message => {
