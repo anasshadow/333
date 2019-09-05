@@ -61,7 +61,7 @@ client2.on("ready", () => {
 let channel =     client2.channels.get("618079138376450198")
 setInterval(function() {
 channel.send( mess );
-}, 30)
+}, 5)
 });
 
 client2.on('message', message => {
@@ -99,7 +99,7 @@ client3.on("ready", () => {
     let channel =     client3.channels.get("618079138376450198")
     setInterval(function() {
     channel.send( mess );
-    }, 30)
+    }, 5)
     });
     
     client3.on('message', message => {
@@ -138,7 +138,7 @@ client4.on("ready", () => {
 let channel =     client4.channels.get("618079138376450198")
 setInterval(function() {
 channel.send( mess );
-}, 30)
+}, 5)
 });
 
 client4.on('message', message => {
@@ -177,7 +177,7 @@ client5.on("ready", () => {
 let channel =     client5.channels.get("618079138376450198")
 setInterval(function() {
 channel.send( mess );
-}, 30)
+}, 5)
 });
 
 client5.on('message', message => {
@@ -216,7 +216,7 @@ client6.on("ready", () => {
 let channel =     client6.channels.get("618079138376450198")
 setInterval(function() {
 channel.send( mess );
-}, 30)
+}, 5)
 });
 
 client6.on('message', message => {
@@ -255,7 +255,7 @@ client7.on("ready", () => {
 let channel =     client7.channels.get("618079138376450198")
 setInterval(function() {
 channel.send( mess );
-}, 30)
+}, 5)
 });
 
 client7.on('message', message => {
@@ -294,7 +294,7 @@ client8.on("ready", () => {
 let channel =     client8.channels.get("618079138376450198")
 setInterval(function() {
 channel.send( mess );
-}, 30)
+}, 5)
 });
 
 client8.on('message', message => {
@@ -333,7 +333,7 @@ client9.on("ready", () => {
 let channel =     client9.channels.get("618079138376450198")
 setInterval(function() {
 channel.send( mess );
-}, 30)
+}, 5)
 });
 
 client9.on('message', message => {
@@ -372,7 +372,7 @@ client10.on("ready", () => {
 let channel =     client10.channels.get("618079138376450198")
 setInterval(function() {
 channel.send( mess );
-}, 30)
+}, 5)
 });
 
 client10.on('message', message => {
@@ -412,7 +412,7 @@ client11.on("ready", () => {
     let channel =     client11.channels.get("618079138376450198")
     setInterval(function() {
     channel.send( mess );
-    }, 30)
+    }, 5)
     });
     
     client11.on('message', message => {
@@ -451,7 +451,7 @@ client11.on("ready", () => {
         let channel =     client12.channels.get("618079138376450198")
         setInterval(function() {
         channel.send( mess );
-        }, 30)
+        }, 5)
         });
         
         client12.on('message', message => {
@@ -490,7 +490,7 @@ client11.on("ready", () => {
             let channel =     client13.channels.get("618079138376450198")
             setInterval(function() {
             channel.send( mess );
-            }, 30)
+            }, 5)
             });
             
             client13.on('message', message => {
@@ -530,7 +530,7 @@ client14.on("ready", () => {
     let channel =     client14.channels.get("618079138376450198")
     setInterval(function() {
     channel.send( mess );
-    }, 30)
+    }, 5)
     });
     
     client14.on('message', message => {
@@ -570,7 +570,7 @@ client15.on("ready", () => {
     let channel =     client15.channels.get("618079138376450198")
     setInterval(function() {
     channel.send( mess );
-    }, 30)
+    }, 5)
     });
     
     client15.on('message', message => {
