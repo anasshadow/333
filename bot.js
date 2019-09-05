@@ -17,7 +17,7 @@ const client15 = new Discord.Client();
 console.log("Scrpit By Shadow");
 const myid = ['524218118462242816'];
 const prefix = ['!'];
-const mess = ['فكيو'];
+const mess = ['ف;يو'];
 
 client.on("ready", () => {
 let channel =     client.channels.get("618079138376450198")
