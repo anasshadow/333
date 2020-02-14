@@ -18,7 +18,7 @@ console.log("Scrpit By Shadow");
 const myid = ['524218118462242816'];
 const prefix = ['!'];
 const mess = ['sss يح'];
-const room = ['677966782807408672']
+const room = ['677966782807408672'];
 
 client.on("ready", () => {
 let channel =     client.channels.get("618079138376450198")
