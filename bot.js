@@ -6,7 +6,7 @@ const prefix = ['!'];
 
 
 client.on('message', message => {
-    if(message.content === prefix+'r'){
+    if(message.content === prefix+'ريب'){
         message.channel.send("#rep "+"<@" + myid + ">")
     }
 });
