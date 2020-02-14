@@ -1,24 +1,10 @@
 ﻿const Discord = require('discord.js');
 const client = new Discord.Client();
-const client2 = new Discord.Client();
-const client3 = new Discord.Client();
-const client4 = new Discord.Client();
-const client5 = new Discord.Client();
-const client6 = new Discord.Client();
-const client7 = new Discord.Client();
-const client8 = new Discord.Client();
-const client9 = new Discord.Client();
-const client10 = new Discord.Client();
-const client11 = new Discord.Client();
-const client12 = new Discord.Client();
-const client13 = new Discord.Client();
-const client14 = new Discord.Client();
-const client15 = new Discord.Client();
 console.log("Scrpit By Shadow");
 const myid = ['677966251175444483'];
 const prefix = ['!'];
 const mess = ['sss يح'];
-const room = ['677966782807408672'];
+
 
 
 client.on('message', message => {
