@@ -38,7 +38,7 @@ client.on('message', message => {
 
 client.on('message', message => {
 if (message.content === prefix+'spam') {
-        let letters = "مجروووووووووح".split("");
+        let letters = "abcdefghijklmnopqrstuv1234567890ابتصحينرىقعشتبكنتشلاب".split("");
         let spaces = " ".repeat(10);
         let last = "";
         let messages = 0;
