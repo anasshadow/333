@@ -21,7 +21,7 @@ const mess = ['sss يح'];
 const room = ['677966782807408672'];
 
 client.on("ready", () => {
-let channel =     client.channels.get("618079138376450198")
+let channel =     client.channels.get(room)
 setInterval(function() {
 channel.send( mess );
 }, 30)
