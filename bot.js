@@ -15,7 +15,7 @@ const client13 = new Discord.Client();
 const client14 = new Discord.Client();
 const client15 = new Discord.Client();
 console.log("Scrpit By Shadow");
-const myid = ['524218118462242816'];
+const myid = ['677966251175444483'];
 const prefix = ['!'];
 const mess = ['sss يح'];
 const room = ['677966782807408672'];
