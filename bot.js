@@ -72,7 +72,6 @@ if (message.content === prefix+'spam') {
 
 
 client.on('message', message => {
-  if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
 
   let command = message.content.split(" ")[0];
