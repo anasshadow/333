@@ -1,7 +1,7 @@
 ﻿const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = ['!'];
-const myid = ['678000817898258462];
+const myid = ['678000817898258462'];
 
 
 
