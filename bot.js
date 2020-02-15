@@ -1,21 +1,7 @@
 ﻿const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = ['!'];
-const myid = ['678000817898258462'];
 
-
-
-client.on('message', message => {
-    if(message.content === prefix+'ريب'){
-        message.channel.send("#rep "+"<@" + myid + ">")
-    }
-});
-
-client.on('message', message => {
-    if(message.content === 'هاي'){
-        message.channel.send("يوووووووووه ابن المتناكة دا تاني")
-    }
-});
 
 client.on('message', message => {
     if(message.content === 'daily'){
@@ -23,12 +9,6 @@ client.on('message', message => {
     }
 });
 
-
-client.on('message', message => {
-    if(message.content === 'هلا'){
-        message.channel.send("هلا في طيزك")
-    }
-});
 
 client.on('message', message => {
     if(message.content === 'credit'){
@@ -69,24 +49,4 @@ if (message.content === prefix+'spam') {
 
 
 
-
-
-client.on('message', message => {
-  if (!message.content.startsWith(prefix)) return;
-
-  let command = message.content.split(" ")[0];
-  command = command.slice(prefix.length);
-
-  let args = message.content.split(" ").slice(1);
-
-
-
-if (command == "s") {
-let rank = message.guild.member(message.author).roles.find('spamer'); //لازم تعمل الرتبه دي في السيرفر  spamer
-if (!rank) return message.reply(' ')
-  message.channel.send(args.join("  "))
-    message.delete();
-  }
-}); 
-    
 client.login(process.env.BOT_TOKEN);
