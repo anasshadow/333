@@ -17,56 +17,7 @@ const client9 = new Discord.Client();
 const client10 = new Discord.Client();
 const settings = require("./config.json"); 
 
-client.on('ready', () => {
-  console.log(`[Shadow] : الحساب رقم واحد يعمل`);
-  console.log(`Hi ${client.user.tag} , This Code by : Shadow `);
-  console.log(`i Have  [ " ${client.guilds.size} " ]`);
-});
-client2.on('ready', () => {
-  console.log(`[Shadow] : الحساب رقم اثنين يعمل `);
-  console.log(`Hi ${client2.user.tag} , This Code by : Shadow `);
-  console.log(`i Have  [ " ${client2.guilds.size} " ]`);
-});
-client3.on('ready', () => {
-  console.log(`[Shadow] : الحساب رقم 3 يعمل`);
-  console.log(`Hi ${client3.user.tag} , This Code by : Shadow `);
-  console.log(`i Have  [ " ${client3.guilds.size} " ]`);
-});
-client4.on('ready', () => {
-  console.log(`[Shadow] : الحساب رقم 4 يعمل`);
-  console.log(`Hi ${client4.user.tag} , This Code by : Shadow `);
-  console.log(`i Have  [ " ${client4.guilds.size} " ]`);
-});
-client5.on('ready', () => {
-  console.log(`[Shadow] : الحساب رقم 5 يعمل`);
-  console.log(`Hi ${client5.user.tag} , This Code by : Shadow `);
-  console.log(`i Have  [ " ${client5.guilds.size} " ]`);
-});
-client6.on('ready', () => {
-  console.log(`[Shadow] : الحساب رقم 6 يعمل`);
-  console.log(`Hi ${client6.user.tag} , This Code by : Shadow`);
-  console.log(`i Have  [ " ${client6.guilds.size} " ]`);
-});
-client7.on('ready', () => {
-  console.log(`[Shadow] : الحساب رقم 7 يعمل`);
-  console.log(`Hi ${client7.user.tag} , This Code by : Shadow `);
-  console.log(`i Have  [ " ${client7.guilds.size} " ]`);
-});
-client8.on('ready', () => {
-  console.log(`[Shadow] : الحساب رقم 8 يعمل`);
-  console.log(`Hi ${client8.user.tag} , This Code by : Shadow `);
-  console.log(`i Have  [ " ${client8.guilds.size} " ]`);
-});
-client9.on('ready', () => {
-  console.log(`[Shadow] : الحساب رقم 9 يعمل`);
-  console.log(`Hi ${client9.user.tag} , This Code by : Shadow `);
-  console.log(`i Have  [ " ${client9.guilds.size} " ]`);
-});
-client10.on('ready', () => {
-  console.log(`[Shadow] : الحساب رقم 10 يعمل`);
-  console.log(`Hi ${client10.user.tag} , This Code by : Shadow `);
-  console.log(`i Have  [ " ${client10.guilds.size} " ]`);
-});
+
 
 
 client.on('message', message => {
