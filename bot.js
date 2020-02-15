@@ -48,9 +48,6 @@ if (message.content === prefix+'spam') {
 });
 
 
-
-client.login(process.env.BOT_TOKEN);
-
 client2.on('message', message => {
     if(message.content === 'daily'){
         message.channel.send("#daily")
@@ -98,3 +95,5 @@ if (message.content === prefix+'spam') {
 
 
 client2.login(process.env.BOT_TOKEN2);
+client.login(process.env.BOT_TOKEN);
+
