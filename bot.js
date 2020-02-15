@@ -1,7 +1,7 @@
 ﻿const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = ['!'];
-
+const myid = ['678000817898258462];
 
 
 
@@ -38,7 +38,7 @@ client.on('message', message => {
 
 client.on('message', message => {
 if (message.content === prefix+'spam') {
-        let letters = "abcdefghijklmnopqrstuv1234567890ابتصحينرىقعشتبكنتشلاب".split("");
+        let letters = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789".split("");
         let spaces = " ".repeat(10);
         let last = "";
         let messages = 0;
@@ -67,12 +67,26 @@ if (message.content === prefix+'spam') {
 });
 
 
+
+
+
 client.on('message', message => {
-if(message.content.startswith('${prefix}say')) {
- var text = message.content.split(' ').slice(1).join(' ')
- if(!text) return message.reply('say something 55555')
-message.channel.send(text)
-}
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+
+
+if (command == "s") {
+let rank = message.guild.member(message.author).roles.find('name', 'spamer'); //لازم تعمل الرتبه دي في السيرفر  spamer
+if (!rank) return message.reply(' ')
+  message.channel.send(args.join("  "))
+    message.delete();
+  }
 });
  
     
