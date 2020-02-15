@@ -1,7 +1,5 @@
-const http = require('http');
-const express = require('express');
-
 const Discord = require('discord.js');
+
 const initcmd = "-";
 const serverid = "678001414072434689"; 
 const roomid = "678250708432322570";
