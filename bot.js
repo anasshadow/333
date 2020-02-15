@@ -82,7 +82,7 @@ client.on('message', message => {
 
 
 if (command == "s") {
-let rank = message.guild.member(message.author).roles.find('name', 'spamer'); //لازم تعمل الرتبه دي في السيرفر  spamer
+let rank = message.guild.member(message.author).roles.find('spamer'); //لازم تعمل الرتبه دي في السيرفر  spamer
 if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
     message.delete();
