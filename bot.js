@@ -73,7 +73,7 @@ if(message.content.startswith('${prefix}say')) {
  if(!text) return message.reply('say something 55555')
 message.channel.send(text)
 }
-})
+});
  
     
 client.login(process.env.BOT_TOKEN);
